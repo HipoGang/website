@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hipo Gang</title>
+        <link rel="icon" type="image/svg+xml" href="favicon.png" />
+    </head>
+
+    <body class="font-heebo bg-black text-white">
+        <div class="absolute -z-10 mt-20 w-full min-w-[360px] overflow-hidden sm:mt-0">
+            <div class="-ml-24 -mt-4 h-80 sm:ml-0 sm:mt-0 sm:h-auto sm:max-h-[550px] sm:w-full">
+                <img src="banner-wide.jpg" class="h-full w-full object-cover object-top" />
+            </div>
+        </div>
+        <div id="root">
+            <div class="relative mx-auto flex min-w-[360px] max-w-[960px] flex-row items-center gap-4 px-6 py-4">
+                <div class="h-14 flex-1">
+                    <img src="logo.png" class="h-full" />
+                </div>
+                <div class="group h-6 sm:hidden">
+                    <label for="menu" class="cursor-pointer">
+                        <input type="checkbox" id="menu" class="peer absolute hidden" />
+                        <img src="menu.svg" class="h-full peer-checked:hidden" />
+                        <img src="close.svg" class="hidden h-full peer-checked:block" />
+                        <div
+                            class="absolute left-0 top-20 z-10 hidden h-64 w-full flex-col place-content-center gap-8 bg-black px-16 text-xl opacity-95 peer-checked:flex"
+                        >
+                            <a class="drop-shadow-sm" href="#hpo">Win $HPO</a>
+                            <a class="drop-shadow-sm" href="#roadmap">Road Map</a>
+                            <a class="drop-shadow-sm">How to Play</a>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="hidden flex-row gap-16 font-bold sm:flex">
+                    <a class="drop-shadow-sm" href="#hpo">Win $HPO</a>
+                    <a class="drop-shadow-sm" href="#roadmap">Road Map</a>
+                    <a class="drop-shadow-sm">How to Play</a>
+                </div>
+            </div>
+
+            <div class="mx-auto flex h-72 min-w-[360px] max-w-[960px] flex-row items-center sm:h-60">
+                <div class="w-96 max-w-[65%] p-6 text-4xl leading-snug sm:w-[28rem] sm:max-w-max">
+                    Become a TON Expert and Earn
+                    <span class="bg-gradient-to-r from-purple-700 to-pink-600 bg-clip-text font-bold text-transparent"
+                        >$HPO</span
+                    >
+                    Airdrops
+                </div>
+            </div>
+
+            <div class="mx-auto min-w-[360px] max-w-[960px]">
+                <div class="my-8 flex flex-row justify-center sm:-mt-8 sm:mb-20 sm:max-w-[400px] md:mb-40 lg:mb-48">
+                    <div class="relative">
+                        <button
+                            class="rounded-2xl bg-gradient-to-r from-purple-950 via-purple-800 to-pink-700 px-16 py-4 text-xl font-bold"
+                        >
+                            Join The Gang!
+                        </button>
+                        <div
+                            class="absolute -right-3 -top-4 flex h-10 w-10 place-content-center rounded-full bg-[red] p-2 text-xs drop-shadow-lg"
+                        >
+                            <div class="font-bold leading-6">Soon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mx-auto my-12 flex min-w-[360px] max-w-[960px] flex-row flex-wrap justify-center gap-4 px-4">
+                <div class="h-36 w-36 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                    <div
+                        class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-radial from-purple1 to-purple2 px-2 py-4"
+                    >
+                        <div class="relative">
+                            <div class="absolute h-14 w-14 rounded-full bg-white opacity-15"></div>
+                            <img src="tap.svg" class="ml-2 mt-2 h-10 w-10" />
+                        </div>
+                        <div class="font-medium">Tap to Earn</div>
+                    </div>
+                </div>
+
+                <div class="h-36 w-36 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                    <div
+                        class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-radial from-purple1 to-purple2 px-2 py-4"
+                    >
+                        <div class="relative">
+                            <div class="absolute h-14 w-14 rounded-full bg-white opacity-15"></div>
+                            <img src="friends.svg" class="ml-2 mt-2 h-10 w-10" />
+                        </div>
+                        <div class="font-medium">Invite Friends</div>
+                    </div>
+                </div>
+
+                <div class="h-36 w-36 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                    <div
+                        class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-radial from-purple1 to-purple2 px-2 py-4"
+                    >
+                        <div class="relative">
+                            <div class="absolute h-14 w-14 rounded-full bg-white opacity-15"></div>
+                            <img src="invest.svg" class="ml-2 mt-2 h-10 w-10" />
+                        </div>
+                        <div class="font-medium">Invest Wisely</div>
+                    </div>
+                </div>
+
+                <div class="h-36 w-36 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                    <div
+                        class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-radial from-purple1 to-purple2 px-2 py-4"
+                    >
+                        <div class="relative">
+                            <div class="absolute h-14 w-14 rounded-full bg-white opacity-15"></div>
+                            <img src="tasks.svg" class="ml-2 mt-2 h-10 w-10" />
+                        </div>
+                        <div class="font-medium">Complete Tasks</div>
+                    </div>
+                </div>
+            </div>
+
+            <a name="hpo"></a>
+
+            <div class="mx-auto my-12 flex max-w-96 flex-row items-center gap-4 px-4">
+                <div class="h-1 flex-1 rounded-full bg-gradient-to-r from-purple1 to-pink-600"></div>
+                <div class="flex-none text-4xl font-bold">
+                    Win
+                    <span class="bg-gradient-to-r from-purple-700 to-pink-600 bg-clip-text font-bold text-transparent">
+                        $HPO
+                    </span>
+                </div>
+                <div class="h-1 flex-1 rounded-full bg-gradient-to-l from-purple1 to-pink-600"></div>
+            </div>
+
+            <div class="mx-auto flex min-w-[360px] max-w-[960px] flex-col gap-12">
+                <div class="mx-auto max-w-[600px] px-16 text-center text-4xl leading-snug">
+                    The First Utility Token on <span class="font-bold text-blue">TON</span> via a Tap-to-Earn Game!
+                </div>
+                <div class="mx-auto max-w-[600px] text-center text-xl leading-loose">
+                    Hipo Gang is powered by Hipo, a liquid staking platform on TON. Players will receive airdrops of
+                    $HPO, the Hipo governance token.
+                </div>
+            </div>
+
+            <img src="gang.jpg" class="my-8" />
+
+            <a name="roadmap"></a>
+
+            <div class="mx-auto mt-12 flex max-w-96 flex-row items-center gap-4 px-4">
+                <div class="h-1 flex-1 rounded-full bg-gradient-to-r from-purple1 to-pink-600"></div>
+                <div class="flex-none text-4xl font-bold">Road Map</div>
+                <div class="h-1 flex-1 rounded-full bg-gradient-to-l from-purple1 to-pink-600"></div>
+            </div>
+
+            <div class="mx-auto mt-8 flex min-w-[360px] max-w-[960px] flex-col px-8">
+                <div class="flex-1">
+                    <div class="flex flex-row flex-wrap items-center justify-center">
+                        <div class="h-12 min-w-60 grow gap-8">
+                            <div class="mx-auto w-60 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                                <div
+                                    class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-to-r from-purple2 via-purple1 to-purple2 px-4 py-2"
+                                >
+                                    <div class="text-center text-2xl font-medium">Phase 1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="min-w-60 grow">
+                            <ul class="mx-auto max-w-52 list-disc text-xl">
+                                <li class="my-4 ml-4">Tasks</li>
+                                <li class="my-4 ml-4">Basic Game</li>
+                                <li class="my-4 ml-4">Referral</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mx-4 my-4 hidden h-px flex-1 rounded-full bg-gradient-to-r from-purple1 to-pink-600 sm:block"
+                    ></div>
+                </div>
+
+                <div class="flex-1">
+                    <div class="flex flex-row flex-wrap items-center justify-center">
+                        <div class="h-12 min-w-60 grow gap-8">
+                            <div class="mx-auto w-60 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                                <div
+                                    class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-to-r from-purple2 via-purple1 to-purple2 px-4 py-2"
+                                >
+                                    <div class="text-center text-2xl font-medium">Phase 2</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="min-w-60 grow py-8">
+                            <ul class="mx-auto max-w-52 list-disc text-xl">
+                                <li class="my-4 ml-4">LVL Ratings</li>
+                                <li class="my-4 ml-4">Daily Rewards</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mx-4 my-4 hidden h-px flex-1 rounded-full bg-gradient-to-r from-purple1 to-pink-600 sm:block"
+                    ></div>
+                </div>
+
+                <div class="flex-1">
+                    <div class="flex flex-row flex-wrap items-center justify-center">
+                        <div class="h-12 min-w-60 grow gap-8">
+                            <div class="mx-auto w-60 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                                <div
+                                    class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-to-r from-purple2 via-purple1 to-purple2 px-4 py-2"
+                                >
+                                    <div class="text-center text-2xl font-medium">Phase 3</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="min-w-60 grow py-8">
+                            <ul class="mx-auto max-w-52 list-disc text-xl">
+                                <li class="my-4 ml-4">Strategic Investment</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mx-4 my-4 hidden h-px flex-1 rounded-full bg-gradient-to-r from-purple1 to-pink-600 sm:block"
+                    ></div>
+                </div>
+
+                <div class="flex-1">
+                    <div class="flex flex-row flex-wrap items-center justify-center">
+                        <div class="h-12 min-w-60 grow gap-8">
+                            <div class="mx-auto w-60 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                                <div
+                                    class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-to-r from-purple2 via-purple1 to-purple2 px-4 py-2"
+                                >
+                                    <div class="text-center text-2xl font-medium">Phase 4</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="min-w-60 grow py-8">
+                            <ul class="mx-auto max-w-52 list-disc text-xl">
+                                <li class="my-4 ml-4">On-Chain Infrastructure Development</li>
+                                <li class="my-4 ml-4">Extra Gaining Opportunities</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mx-4 my-4 hidden h-px flex-1 rounded-full bg-gradient-to-r from-purple1 to-pink-600 sm:block"
+                    ></div>
+                </div>
+
+                <div class="flex flex-1 flex-row flex-wrap items-center justify-center">
+                    <div class="h-12 min-w-60 grow gap-8">
+                        <div class="mx-auto w-60 rounded-2xl bg-gradient-to-b from-purple2 to-purple2 p-px">
+                            <div
+                                class="flex h-full w-full flex-col place-content-center items-center gap-8 rounded-2xl border-b border-t border-b-black border-t-purple-700 bg-gradient-to-r from-purple2 via-purple1 to-purple2 px-4 py-2"
+                            >
+                                <div class="text-center text-2xl font-medium">Phase 5</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="min-w-60 grow py-8">
+                        <ul class="mx-auto max-w-52 list-disc text-xl">
+                            <li class="my-4 ml-4">TGE on TON</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mx-4 my-8 flex flex-row justify-center">
+                <div class="h-1 max-w-96 flex-1 rounded-full bg-gradient-to-l from-purple1 to-pink-600"></div>
+            </div>
+
+            <div class="mx-auto flex min-w-[360px] max-w-[960px] flex-row flex-wrap sm:max-w-[70%]">
+                <a
+                    class="my-8 flex min-w-80 flex-1 flex-row items-center justify-center gap-4"
+                    href="https://hipo.finance/"
+                    target="_blank"
+                >
+                    <div class="flex flex-col text-center">
+                        <div class="text-lg font-medium">Powered by</div>
+                        <div class="text-5xl font-bold">Hipo</div>
+                    </div>
+                    <div class="h-24 w-24">
+                        <img src="hipo.svg" class="h-full w-full object-contain" />
+                    </div>
+                </a>
+                <a
+                    class="my-8 flex min-w-80 flex-1 flex-row items-center justify-center gap-4"
+                    href="https://ton.org/"
+                    target="_blank"
+                >
+                    <div class="flex flex-col text-center">
+                        <div class="text-lg font-medium">Based on</div>
+                        <div class="text-5xl font-bold">TON</div>
+                    </div>
+                    <div class="h-24 w-24 p-4">
+                        <img src="ton.svg" class="h-full w-full object-contain" />
+                    </div>
+                </a>
+            </div>
+
+            <div class="mx-auto min-w-[360px] max-w-[960px]">
+                <div class="mx-4">
+                    <div
+                        class="mx-auto mb-24 mt-4 rounded-2xl bg-gradient-to-r from-purple1 to-pink-600 p-0.5 sm:max-w-[70%]"
+                    >
+                        <div class="flex flex-row flex-wrap items-center justify-center gap-8 rounded-2xl bg-black p-4">
+                            <div class="flex flex-row gap-4">
+                                <a class="h-16 w-16 rounded-2xl bg-purple2 p-3" href="https://t.me/HipoFinance">
+                                    <img src="telegram.svg" class="h-full w-full" />
+                                </a>
+                                <a class="h-16 w-16 rounded-2xl bg-purple2 p-3" href="https://x.com/hipofinance">
+                                    <img src="x.svg" class="h-full w-full" />
+                                </a>
+                                <a
+                                    class="h-16 w-16 rounded-2xl bg-purple2 p-3"
+                                    href="https://www.youtube.com/@HipoFinance"
+                                >
+                                    <img src="youtube.svg" class="h-full w-full" />
+                                </a>
+                            </div>
+                            <div class="text-xl font-medium">Join the Gang!</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="src/main.tsx"></script>
+    </body>
+</html>
